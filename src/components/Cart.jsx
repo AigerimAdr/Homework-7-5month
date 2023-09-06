@@ -1,5 +1,6 @@
 import { useSelector, useDispatch } from "react-redux";
 import { cartActions } from "../store/Cartslice";
+import { Link } from 'react-router-dom';
 
 function Cart() {
   const cartItems = useSelector((state) => state.cart.items);
@@ -34,6 +35,7 @@ function Cart() {
           </button>
         </div>
       )}
+      <Link to="/">Back to products</Link>
     </div>
   );
 }

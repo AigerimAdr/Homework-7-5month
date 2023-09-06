@@ -24,12 +24,9 @@ a:hover {
 }
 
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  margin: 0 auto;
 }
+
 
 h1 {
   font-size: 3.2em;
@@ -89,6 +86,11 @@ gap: 20px;
 }
 .btn-basket {
   margin-bottom: 50px;
+}
+
+nav {
+  max-width: 150px;
+  margin: 0 auto;
 }
 
 @media (prefers-color-scheme: light) {
